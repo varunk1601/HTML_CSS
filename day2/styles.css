@@ -7,3 +7,12 @@ header{
 h1{
     color:#0040df
 }
+nav{
+    background-color: black;
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+    color:aliceblue;
+    display: inline-block;
+}
