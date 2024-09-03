@@ -9,6 +9,7 @@ h1{
 }
 nav{
     background-color: black;
+    color: aliceblue;
     text-align: center;
 }
 ul li{
@@ -16,4 +17,19 @@ ul li{
     color:aliceblue;
     display: inline-block;
     padding: 10px 20px;
+}
+.card1 img{
+    max-width:130%;
+    border-radius: 10px;
+    display:block;
+    margin: 0 auto;
+}
+.card1
+{
+    
+    border:10px solid gainsboro;
+    padding: 10px;
+}
+.lii{
+    padding: 10px;
 }
