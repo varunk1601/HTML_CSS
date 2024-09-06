@@ -106,3 +106,50 @@ ul li a
     text-align: center;
     padding: 50px 20px;
 }
+.honeycomb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.hexagon {
+    position: relative;
+    width: 150px;
+    height: 130px; 
+    background-color: #e0e0e0;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.hexagon:nth-child(odd) {
+    margin-top: 65px;
+}
+
+.hexagon:hover {
+    background-color:yellow;
+}
+
+.hex-content {
+    text-align: center;
+    color: blue;
+}
+
+.hex-content h3 {
+    margin: 0;
+    font-size: 1rem;
+    color:blue;
+}
+
+.hex-content p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+h3{
+    color: #0040df;
+}
